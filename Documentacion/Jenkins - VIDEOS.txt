@@ -1,0 +1,11 @@
+INTRODUCCIÓN A INTEGRACION CONTINUA
+https://www.youtube.com/watch?v=0Pwgq3WQNYs&ab_channel=DeStacka2
+
+INSTRODUCCION A JENKINS
+https://www.youtube.com/watch?v=RET4vHRMDek&ab_channel=OpenWebinars
+
+PIPELINES JENKINS
+https://www.youtube.com/watch?v=ZO3nCHEK5RI&ab_channel=OpenWebinars
+
+JENKINS Y SONARQUBE
+https://www.youtube.com/watch?v=PdYLiekL834&ab_channel=SantiagoGarciaArangoTech

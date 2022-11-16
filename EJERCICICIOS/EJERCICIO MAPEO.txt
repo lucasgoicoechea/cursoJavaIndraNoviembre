@@ -1,0 +1,13 @@
+- NUEVA ENTIDAD,  llamada Legajo 
+    con atributos: id:int,  nroLegajo:int y caratula:String
+- NUEVA ENTIDAD, llamada PersonaLegajo 
+     con atributos: id:int,  persona:Persona , legajo:Legajo y un fechaCreacion:String
+
+-  REALIZAR ENTIDADES, REALIZAR EL MAPEO, REALIZAR LAS SIGUIENTE RELACIONES:
+    - 1 persona posee 2 legajos 
+    - cada legajo esta asociado a 1 persona
+    - cada PersonaLegajo esta asociado a 1 persona y a 1 Legajo
+
+
+CREAR TABLAS EN LA BASE DE DATOS QUE RESPETEN EL MAPEO
+

@@ -1,0 +1,7 @@
+ - crear un Proyecto
+ - crear la clase necesaria para copiar el codigo que comienza
+en la pagina 42 del documento clase_Exceptions.pdf
+ - LUEGO, debemos transformar el array 
+int myInt[] = myInt[]
+  a una collection  de tipo List instanciada como ArrayList,
+    el elemento a guardar en la coleccion sea de tipo Integer

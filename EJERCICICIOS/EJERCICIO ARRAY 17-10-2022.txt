@@ -1,0 +1,10 @@
+- CREAR UN PROYECTO
+- CREAR UNA CLASE LLAMADA Elemento
+- CREAR UNA ARRAY / COLLECTION
+- CREA UNA CLASE CON METODO main.. para instanciar las clases
+anteriores y agregarlas al array o collection.
+
+----  SUBIRMO AL GITHUB DE LUCAS, CON RAMA (BRANCH) PROPIA,
+     --  EL NOMBRE DE LA RAMA SEA NOMBRE-APELLIDO O INICIAL-APELLIDO
+
+

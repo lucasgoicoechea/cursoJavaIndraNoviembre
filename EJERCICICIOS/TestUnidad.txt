@@ -1,0 +1,14 @@
+ --  CREAR UN PROYECTO MAVEN
+    - llamado TDDWarehouse-<NOMBREALUMNO>
+   - Tendra 3 clases de Test, testean 1 metodo cada una 
+            - PedidoTest
+            - DespachoTest
+            - EntregaTest
+   - Por cada clase van a tener 4 metodos @Test
+               - caseBase , prueba el caso base
+               - failedBase, caso de falla o assert false
+               - exceptionBase, caso que genera una exception
+               - complexBase, caso complejo prueba mas de 1 assert
+  - Generar metodo @Before por clase
+             
+                 RETOMAMOS 11.40

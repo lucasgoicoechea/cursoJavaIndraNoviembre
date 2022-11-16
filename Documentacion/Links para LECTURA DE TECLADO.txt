@@ -1,0 +1,1 @@
+https://ifgeekthen.nttdata.com/es/que-es-y-como-usar-la-clase-scanner-en-java#:~:text=Dentro%20del%20paquete%20java.,%2C%20double%2C%20string%20y%20etc.

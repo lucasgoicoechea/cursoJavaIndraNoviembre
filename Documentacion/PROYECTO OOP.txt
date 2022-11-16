@@ -1,0 +1,12 @@
+    -  TIENEN QUE TENER 4 CLASES DE JAVA
+              - Main
+              - Corredor
+              - Pista 
+              - Carrera
+   
+     Se debe poder contener la informacion de una Carrera de atletismo,
+     con 8 Corredores, en 1 Pista, y imprimir el nombre del Corredor mas
+     veloz.
+
+
+             /***********  HAGO MI PAUSA, RETORNO 16.30 *////

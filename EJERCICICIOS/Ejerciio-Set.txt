@@ -1,0 +1,12 @@
+ --  EJERCICIO SOBRE SET
+  - Crear un proyecto, de nombre EjercicioSet 
+  - crear una clase llamada ElementoDeSet 
+    - 3 atributos:  int orden, double precio, String serial
+    - 2 metodos:  toString() y constructor que reciba precio y serial
+  - Crear una clase Main
+    - metodo main , que instanciara 3 elementos del tipo ElementoDeSet
+    - un conjunto Set instanciado como HashSet del tipo generico ElementoDeSet
+ - luego realizar un foreach donde muestre orden + precio + serial de cada elemento
+
+       10.45 - RETOMAMOS
+
