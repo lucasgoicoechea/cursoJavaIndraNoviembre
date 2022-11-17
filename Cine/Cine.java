@@ -5,8 +5,8 @@ public class Cine {
     private String direccion, nombre;
     private Date fechaInauguracion;
     private Float precioEntrada;
-    private HoraFuncion horariosFunciones;
-    private Programacion programaciones;
+    private List<HoraFuncion> horariosFunciones = new ArrayList<>();
+    private List<Programacion> programaciones = new ArrayList<>();
 
     //Getters and setters
     public String getDireccion() {
