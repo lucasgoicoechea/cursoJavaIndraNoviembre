@@ -1,0 +1,12 @@
+    -  TIENEN QUE TENER 4 CLASES DE JAVA
+              - Main (instancia una carrera, aplica la logica causistica)
+              - Corredor (nombre:String, velocidad:int, distancia:int)
+              - Pista (nombre: String, largo:int, corredores:List<Corredor>)
+              - Carrera (nombre: String, lugar:String, pista:Pista)
+   
+     Se debe poder contener la informacion de una Carrera de atletismo,
+     con 8 Corredores, en 1 Pista, y imprimir el nombre del Corredor mas
+     veloz.
+      La velocidad en pista de un corredor se calcula: 
+               velocidadCorredor * (distanciaCorredor - largoPista)
+            
