@@ -1,10 +1,39 @@
 - CREAR UN PROYECTO
 - CREAR UNA CLASE LLAMADA Elemento
-- CREAR UNA ARRAY / COLLECTION
+- CREAR UNA CLASE LLAMADA Main
 - CREA UNA CLASE CON METODO main.. para instanciar las clases
 anteriores y agregarlas al array o collection.
+- CREAR UNA ARRAY / COLLECTION
 
-----  SUBIRMO AL GITHUB DE LUCAS, CON RAMA (BRANCH) PROPIA,
-     --  EL NOMBRE DE LA RAMA SEA NOMBRE-APELLIDO O INICIAL-APELLIDO
+----------------------   
+
+   - CREAR INTERFACE  IElemento definir metodos:
+          - paint():void
+          - rePaint():void
+          - delete():void
+          - size():int  
+   - implementan la INTERFACE  IElemento en Elemento
+
+----------------------
+   - CREAR CLASE Componente, hereda de Elemento
+   - la clase Componente tendra un List<Elemento> elementos
+
+ ---   Manejo de Exceptions 
+         - CREAR CLASE CON EXCEPTION DE NEGOCIO
+               -- MANIPULE Elemento o Componentes en caso de error
+
+---  LUEGO SUBIR NUEVO BRANCH AL GIT CON LOS APELLIDOS DEL EQUIPO
+
+
+
+
+
+
+
+
+
+
+
+
 
 
