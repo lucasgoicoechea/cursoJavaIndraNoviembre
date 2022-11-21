@@ -8,5 +8,4 @@
     - un conjunto Set instanciado como HashSet del tipo generico ElementoDeSet
  - luego realizar un foreach donde muestre orden + precio + serial de cada elemento
 
-       10.45 - RETOMAMOS
 

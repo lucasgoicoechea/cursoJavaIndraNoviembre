@@ -1,5 +1,5 @@
-EJERCICIO ENTREGABLE 1, durante el día 21/10/2022 o al lunes próximo mas tardar.
-----------------------
+EJERCICIO  1
+-------------
 
 - Realizar un nuevo proyecto Java, llamado Entregable1.
 - Debe contener 4 clases java, 
