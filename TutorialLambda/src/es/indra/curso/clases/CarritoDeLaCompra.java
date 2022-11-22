@@ -121,6 +121,11 @@ public class CarritoDeLaCompra {
                                             .findFirst()
                                             .isPresent();
     }
+    
+    public Collection<Integer> buscarPreciosSuperioresA(int precioBuscado){
+    	
+    	return this.precios.parallelStream().filter(p -> p.intValue() > precioBuscado).toList();
+    }
 
 
 }

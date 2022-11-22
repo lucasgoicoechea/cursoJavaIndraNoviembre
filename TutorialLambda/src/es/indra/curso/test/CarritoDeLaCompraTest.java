@@ -1,7 +1,8 @@
 package es.indra.curso.test;
 
-import es.indra.curso.clases.CarritoBuilder;
 import es.indra.curso.clases.CarritoDeLaCompra;
+import es.indra.curso.util.CarritoBuilder;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -141,7 +142,6 @@ public class CarritoDeLaCompraTest {
         Assert.assertTrue(carritoDeLaCompra.detectarErrorFindFirstParallel());
      
     }
-
 
 
 
