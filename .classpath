@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="CineCursoJava/src"/>
+	<classpathentry kind="src" path="CursoJavaCine1711/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/AddLibraryV1/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/ArraysV1/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/ArrayV2/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/Ejercicio2Asincro/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/Entregable1/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/EstructurasDeProgramacion/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/ExceptionsEjemploV1/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/HolaMundoCursoJava/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/InmuebleMavenLombok/src/main/java"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/LambdaV1/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/PacienteTestUnit/src/main/java"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/PacienteTestUnit/src/test/java"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/POOEjemploV1/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/POOEjemploV2/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/POOEjemploV3/src"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/Practica Spring/springapp/src/main/java"/>
+	<classpathentry kind="src" path="ejercicioAcabadoLambdaStreamYTest/cursoJavaIndraNoviembre/Proyectos ejemplo/Practica Spring/springapp/src/test/java"/>
+	<classpathentry excluding="HolaMundoCursoJava/src/|ArrayV2/src/|Ejercicio2Asincro/src/|EstructurasDeProgramacion/src/|LambdaV1/src/|POOEjemploV1/src/|PacienteTestUnit/src/test/java/|ArraysV1/src/|miLibreria/src/main/java/|AddLibraryV1/src/|TDDWarehouse-lgoicoecheaf/src/test/java/|SetV1/src/|sumaCien/src/main/java/|calculadoraTest/src/test/java/|POOEjemploV2/src/|ExceptionsEjemploV1/src/|TDDWarehouse-lgoicoecheaf/src/main/java/|generarMensajes-library/src/|generar-mensajes/src/main/|Entregable1/src/|POOEjemploV3/src/|calculadoraTest/src/main/java/|Practica Spring/springapp/src/test/java/|InmuebleMavenLombok/src/main/java/|PacienteTestUnit/src/main/java/|Practica Spring/springapp/src/main/java/" kind="src" path="Proyectos ejemplo"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/AddLibraryV1/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/ArraysV1/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/ArrayV2/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/calculadoraTest/src/main/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/calculadoraTest/src/test/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/Ejercicio2Asincro/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/Entregable1/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/EstructurasDeProgramacion/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/ExceptionsEjemploV1/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/generar-mensajes/src/main"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/generarMensajes-library/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/HolaMundoCursoJava/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/InmuebleMavenLombok/src/main/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/LambdaV1/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/miLibreria/src/main/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/PacienteTestUnit/src/main/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/PacienteTestUnit/src/test/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/POOEjemploV1/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/POOEjemploV2/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/POOEjemploV3/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/Practica Spring/springapp/src/main/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/Practica Spring/springapp/src/test/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/SetV1/src"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/sumaCien/src/main/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/TDDWarehouse-lgoicoecheaf/src/main/java"/>
+	<classpathentry kind="src" path="Proyectos ejemplo/TDDWarehouse-lgoicoecheaf/src/test/java"/>
+	<classpathentry kind="output" path="AtletismoClase2/bin"/>
+</classpath>
