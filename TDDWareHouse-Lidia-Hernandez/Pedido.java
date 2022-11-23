@@ -23,4 +23,8 @@ public class Pedido {
         this.estado = estado;
     }
 
+    public int generarPedido(){
+
+    }
+
 }
