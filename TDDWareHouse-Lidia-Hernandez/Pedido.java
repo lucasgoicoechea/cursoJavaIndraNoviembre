@@ -23,8 +23,10 @@ public class Pedido {
         this.estado = estado;
     }
 
-    public int generarPedido(){
-
+    public int generarPedido(String cliente, int und){
+        this.cliente = cliente;
+        this.unidades = uds;
+        this.Estado = Estado.CREADO;
     }
 
 }

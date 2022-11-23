@@ -12,7 +12,7 @@ public class Despacho {
 
     public int registrarDespachaje(Pedido unPedido) {
         this.pedido = unPedido;
-        unPedido.setEstado(Estado.ENTREGADO);
+        unPedido.setEstado(Estado.DESPACHADO);
         return 1;
     }
 }
