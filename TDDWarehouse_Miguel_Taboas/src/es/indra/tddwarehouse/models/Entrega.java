@@ -1,7 +1,5 @@
 package es.indra.tddwarehouse.models;
 
-import es.indra.tddwarehouse.models.Pedido.Estado;
-
 public class Entrega {
 	private Pedido pedido;
 	

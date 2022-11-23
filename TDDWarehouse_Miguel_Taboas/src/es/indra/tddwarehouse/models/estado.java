@@ -1,5 +1,5 @@
 package es.indra.tddwarehouse.models;
 
-public enum estado {
-	
+public enum Estado {
+	CREADO,DESPACHADO,ENTREGADO
 }

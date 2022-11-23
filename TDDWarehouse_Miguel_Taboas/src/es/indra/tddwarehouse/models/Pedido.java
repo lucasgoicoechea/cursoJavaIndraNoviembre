@@ -3,7 +3,6 @@ package es.indra.tddwarehouse.models;
 public class Pedido {
 	private String cliente;
 	private int unidades;
-	public enum Estado{CREADO,DESPACHADO,ENTREGADO};
 	private Estado estado;
 	
 	public String getCliente() {
