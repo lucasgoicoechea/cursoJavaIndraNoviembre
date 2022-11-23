@@ -1,6 +1,5 @@
 package es.indra.tddwarehouse.models;
 
-
 public class Despacho {
 	Pedido pedido;
 	
