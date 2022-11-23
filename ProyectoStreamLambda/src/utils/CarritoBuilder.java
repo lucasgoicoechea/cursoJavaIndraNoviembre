@@ -1,5 +1,7 @@
-package principal;
+package utils;
 import java.util.ArrayList;
+
+import principal.CarritoDeLaCompra;
  
 public class CarritoBuilder {
  

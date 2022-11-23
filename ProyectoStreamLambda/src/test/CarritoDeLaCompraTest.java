@@ -1,6 +1,7 @@
-package principal;
-import principal.CarritoBuilder;
+package test;
 import principal.CarritoDeLaCompra;
+import utils.CarritoBuilder;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -61,24 +62,13 @@ public class CarritoDeLaCompraTest {
         Assert.assertEquals(100, carritoDeLaCompra.calcularDescuentoTotalLambda(100));
      
     }
-    
-    @Test
-    public void shouldDetectErrorAnThrowRuntimeExceptionWhenAPriceIsNegative(){
-     
-    	CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE,NUMBER_ADD);
-    	builder.add(-1L);
-            builder.addMultiple(TOTAL_SIZE,NUMBER_ADD);
-    	CarritoDeLaCompra carritoDeLaCompra = builder.build();
-    	Assert.assertTrue(carritoDeLaCompra.detectarError());
-     
-    }
 
     @Test
     public void shouldDetectErrorAndReturnTrueWhenAPriceIsNegativeAnyMatch(){
      
-     	CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE,NUMBER_ADD);
+     	CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
      	builder.add(-1L);
-     	builder.addMultiple(TOTAL_SIZE,NUMBER_ADD);
+     	builder.addMultiple(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
      	CarritoDeLaCompra carritoDeLaCompra = builder.build();
      	Assert.assertTrue(carritoDeLaCompra.detectarErrorAnyMatch());
      
@@ -87,9 +77,9 @@ public class CarritoDeLaCompraTest {
     @Test
     public void shouldDetectErrorAndReturnTrueWhenAPriceIsNegativeNumberFindAny(){
      
-        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE,NUMBER_ADD);
+        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         builder.add(-1L);
-        builder.addMultiple(TOTAL_SIZE,NUMBER_ADD);
+        builder.addMultiple(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         CarritoDeLaCompra carritoDeLaCompra = builder.build();
         Assert.assertTrue(carritoDeLaCompra.detectarErrorFindAny());
      
@@ -98,9 +88,9 @@ public class CarritoDeLaCompraTest {
     @Test
     public void shouldDetectErrorAndReturnTrueWhenAPriceIsNegativeNumberFindFirst(){
      
-        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE,NUMBER_ADD);
+        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         builder.add(-1L);
-        builder.addMultiple(TOTAL_SIZE,NUMBER_ADD);
+        builder.addMultiple(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         CarritoDeLaCompra carritoDeLaCompra = builder.build();
         Assert.assertTrue(carritoDeLaCompra.detectarErrorFindFirst());
      
@@ -109,9 +99,9 @@ public class CarritoDeLaCompraTest {
     @Test
     public void shouldDetectErrorAndReturnTrueWhenAPriceIsNegativeAnyMatchParallel(){
      
-        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE,NUMBER_ADD);
+        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         builder.add(-1L);
-        builder.addMultiple(TOTAL_SIZE,NUMBER_ADD);
+        builder.addMultiple(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         CarritoDeLaCompra carritoDeLaCompra = builder.build();
         carritoDeLaCompra.detectarErrorAnyMatchParallel();
      
@@ -120,9 +110,9 @@ public class CarritoDeLaCompraTest {
     @Test
     public void shouldDetectErrorAndReturnTrueWhenAPriceIsNegativeNumberFindAnyParallel(){
      
-        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE,NUMBER_ADD);
+        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         builder.add(-1L);
-        builder.addMultiple(TOTAL_SIZE,NUMBER_ADD);
+        builder.addMultiple(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         CarritoDeLaCompra carritoDeLaCompra = builder.build();
         Assert.assertTrue(carritoDeLaCompra.detectarErrorFindAnyParallel());
      
@@ -131,13 +121,21 @@ public class CarritoDeLaCompraTest {
     @Test
     public void shouldDetectErrorAndReturnTrueWhenAPriceIsNegativeNumberFindFirstParallel(){
      
-        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE,NUMBER_ADD);
+        CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         builder.add(-1L);
-        builder.addMultiple(TOTAL_SIZE,NUMBER_ADD);
+        builder.addMultiple(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
         CarritoDeLaCompra carritoDeLaCompra = builder.build();
         Assert.assertTrue(carritoDeLaCompra.detectarErrorFindFirstParallel());
      
     }
 
+    @Test
+    public void shouldDetectErrorAnThrowRuntimeExceptionWhenAPriceIsNegative(){
+    CarritoBuilder builder = new CarritoBuilder(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
+            builder.add(-1);
+                builder.addMultiple(TOTAL_SIZE.intValue(),NUMBER_ADD.intValue());
+            CarritoDeLaCompra carritoDeLaCompra = builder.build();
+            Assert.assertTrue(carritoDeLaCompra.detectarError()); 
+    }
 
 }
