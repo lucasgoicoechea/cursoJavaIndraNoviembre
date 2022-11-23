@@ -2,10 +2,12 @@ package indra;
 
 import java.io.Serializable;
 
+import lombok.Builder;
 import lombok.Data;
 import lombok.Getter;
 
 @Data
+@Builder
 public class Usuario implements Serializable {
 	
 	private static final long seriaVersionUID = 2599368614755368860L;
@@ -20,5 +22,9 @@ public class Usuario implements Serializable {
 	public String getNombreCompleto() {
 		
 		return "";
+	}
+	
+	private void hola() {
+		Usuario usuario = new Usuario.UsuarioBuilder().id(1234L).build();
 	}
 }
