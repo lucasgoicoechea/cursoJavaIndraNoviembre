@@ -1,0 +1,5 @@
+package proyectoUsuario;
+
+public @interface Data {
+
+}

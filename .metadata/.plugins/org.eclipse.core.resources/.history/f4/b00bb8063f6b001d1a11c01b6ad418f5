@@ -1,0 +1,15 @@
+package proyectoUsuario;
+
+
+@Data
+public class Usuario {
+ long id;
+ String nombre;
+ String primerApellido;
+ String segundoApellido;
+ String mail;
+ String telefono;
+ 
+ 
+ 
+}

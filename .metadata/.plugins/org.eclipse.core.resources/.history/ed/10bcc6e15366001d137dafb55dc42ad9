@@ -1,0 +1,15 @@
+package es.indra.curso.entities;
+
+import java.util.Date;
+
+public class Pelicula {
+
+	/*atributos*/
+	int anioEstreno;
+	boolean disponible;
+	int duracion;
+	Date fechaIngreso;
+	String nombre;
+	String tituloOriginal;
+	
+}

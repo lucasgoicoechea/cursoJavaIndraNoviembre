@@ -1,0 +1,6 @@
+package es.indra.curso.entities;
+
+public class HorarioFuncion {
+	String diaDeSemana;
+	
+}
