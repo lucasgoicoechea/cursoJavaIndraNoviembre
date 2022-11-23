@@ -24,7 +24,7 @@ class DespachoTest {
 	@Test
 	public void exceptionBase() {
 	Pedido pedido1=new Pedido();
-	Assert.assertNotEquals(new Exception(),pedido1.generarPedido("",0));
+	Assert.assertNotEquals(new Exception(),pedido1.generarPedido(""));
 	}
 	
 

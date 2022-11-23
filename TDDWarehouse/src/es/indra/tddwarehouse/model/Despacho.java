@@ -14,9 +14,9 @@ public class Despacho {
 		this.pedido = pedido;
 	}
 	
-	public int registrarDespachaje(Pedido p_pedido) {
-		this.pedido=p_pedido;
-		p_pedido.setEstado(Estado.DESPECHADO);
+	public int registrarDespachaje(Pedido _pedido) {
+		this.pedido=_pedido;
+		_pedido.setEstado(Estado.DESPACHADO);
 		return 0;
 	}
 

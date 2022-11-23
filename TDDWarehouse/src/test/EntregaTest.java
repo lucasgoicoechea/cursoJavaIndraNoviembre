@@ -6,8 +6,18 @@ import org.junit.jupiter.api.Test;
 class EntregaTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void caseBase() {
+		
+	}
+	
+	@Test
+	void failedBase() {
+		
+	}
+	
+	@Test
+	void exceptionBase() {
+		
 	}
 	
 	

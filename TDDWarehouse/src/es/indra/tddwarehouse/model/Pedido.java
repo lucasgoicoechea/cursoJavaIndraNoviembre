@@ -2,8 +2,8 @@ package es.indra.tddwarehouse.model;
 
 public class Pedido {
 
-	protected String cliente;
-	protected int unidades;
+	private String cliente;
+	private int unidades;
 	
 	public enum Estado{CREADO,DESPACHADO,ENTREGADO};
 	private Estado estado;
@@ -27,8 +27,9 @@ public class Pedido {
 		this.estado = estado;
 	}
 	
-	public int generarPedido(String cliente,int unidades) {
-	this.cliente=cliente.setEstado(Estado.CREADO);
+	public int generarPedido(String cliente) {
+	estado=Estado.CREADO;
+	return 0;
 	}
 	
 }

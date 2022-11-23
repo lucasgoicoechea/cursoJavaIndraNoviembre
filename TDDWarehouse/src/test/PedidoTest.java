@@ -17,7 +17,17 @@ class PedidoTest {
 	
 	@Test
 	void caseBase() {
-		fail("Not yet implemented");
+		
+	}
+	
+	@Test
+	void failedBase() {
+		
+	}
+	
+	@Test
+	void exceptionBase() {
+		
 	}
 	
 	
