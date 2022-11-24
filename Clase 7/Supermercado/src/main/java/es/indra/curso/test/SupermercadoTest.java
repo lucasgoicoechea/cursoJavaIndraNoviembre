@@ -15,14 +15,14 @@ public class SupermercadoTest {
 		Cereales _cereales = null;
 		Vino _vino = null;
 
-		productos.add((Producto) _cereales.builder().tipo("maiz").precio(10).marca("Hacendado").build());
-		productos.add((Producto) _cereales.builder().tipo("espelta").precio(15).marca("Froiz").build());
-		productos.add((Producto) _cereales.builder().tipo("trigo").precio(12).marca("Froiz").build());
-		productos.add((Producto) _vino.builder().tipo("Tinto").marca("Froiz").grados(14).precio(15).build());
+		productos.add((Producto) _cereales.builder().tipo("maiz").precio(10).marca("Hacendado").build());//8 calorias
+		productos.add((Producto) _cereales.builder().tipo("espelta").precio(15).marca("Froiz").build());//5 calorias
+		productos.add((Producto) _cereales.builder().tipo("trigo").precio(12).marca("Froiz").build());//12 calorias
+		productos.add((Producto) _vino.builder().tipo("Tinto").marca("Froiz").grados(14).precio(15).build());//140 calorias
 
 		int suma = 0;
-		for (int i = 0; i < productos.size(); i++) {
-			suma += productos.get(i).getCalorias();
+		for (Producto prod : productos) {
+			suma += prod.getCalorias();
 		}
 
 		Assert.assertEquals(165, suma);

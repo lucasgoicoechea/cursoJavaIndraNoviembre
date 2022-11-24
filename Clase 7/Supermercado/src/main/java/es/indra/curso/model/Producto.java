@@ -21,6 +21,4 @@ public class Producto implements EsAlimento{
 		return 0;
 	}
 
-	
-	
 }
