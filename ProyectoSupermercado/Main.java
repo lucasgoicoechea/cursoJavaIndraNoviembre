@@ -28,13 +28,30 @@ public class Main {
 		lista.add(vino1);
 		lista.add(vino2);
 		
+		ArrayList<Alimento> lista2= new ArrayList<Alimento>();
+		Cereales cereales3=new Cereales("Alcampo",6,"maiz");
+		Vino vino3= new Vino("Alcampo", "Blanco",17,4.5);
+		Vino vino4= new Vino("Rivera","Rosado",16.4,11);
+		lista2.add(vino3);
+		lista2.add(vino4);
+		lista2.add(vino1);
+		lista2.add(cereales3);
+		lista2.add(cereales2);
+		
 		//Se hace un bucle recorriendo la lista y sumando las calorias de cada producto
 		double calorias=0;
 		for(int i=0;i<lista.size();i++) {
 			calorias=calorias + lista.get(i).calcularCalorias();
 		}
 
-		System.out.print("Calorias totales: " + calorias);
+		System.out.println("Calorias totales lista 1 : " + calorias);
+
+		double resultado=0;
+		for(int j=0;j<lista2.size();j++) {
+			resultado+=lista2.get(j).calcularCalorias();
+		}
+		
+		System.out.println("Calorias totales lista 2 : " + resultado);
 
 
 	}
