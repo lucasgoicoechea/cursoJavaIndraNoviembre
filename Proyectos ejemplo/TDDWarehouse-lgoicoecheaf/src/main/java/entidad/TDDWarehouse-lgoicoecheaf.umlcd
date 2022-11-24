@@ -1,4 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_LAv9QGsSEe2abtVig-wLkA">
-  <modelElement href="platform:/resource/TDDWarehouse-lgoicoecheaf/src/main/java/entidad/TDDWarehouse-lgoicoecheaf.uml#_K_q_MGsSEe2abtVig-wLkA"/>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_LAv9QGsSEe2abtVig-wLkA">
+  <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJb_MGsSEe2abtVig-wLkA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LLJPYGsSEe2abtVig-wLkA" sourceAnchor="273.0,46.0" targetAnchor="0.0,169.0" target="_LLXR0GsSEe2abtVig-wLkA" source="_LLJ2cGsSEe2abtVig-wLkA">
+    <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKIiwWsSEe2abtVig-wLkA"/>
+    <stereotypes xmi:id="_LLJPYWsSEe2abtVig-wLkA" name="Reference">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKIiw2sSEe2abtVig-wLkA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_LLJPYmsSEe2abtVig-wLkA" text="">
+      <visualProperties xmi:id="_LOv9AmsSEe2abtVig-wLkA" position="-25.66666666666663,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_LLJPY2sSEe2abtVig-wLkA" aggregationKind="NONE" name="">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKIiwmsSEe2abtVig-wLkA"/>
+      <visualProperties xmi:id="_LOv9AWsSEe2abtVig-wLkA" position="57.66666666666663,-47.0"/>
+      <visibility xmi:id="_LLJPZGsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLJPZWsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LLJPZmsSEe2abtVig-wLkA" aggregationKind="NONE" name="pedido" navigable="true">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKDDMWsSEe2abtVig-wLkA"/>
+      <visualProperties xmi:id="_LOwkEGsSEe2abtVig-wLkA" position="-63.33333333333337,2.0"/>
+      <visibility xmi:id="_LLJPZ2sSEe2abtVig-wLkA" label="~"/>
+      <cardinality xmi:id="_LLJPaGsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_LLP9EGsSEe2abtVig-wLkA" sourceAnchor="0.0,46.0" targetAnchor="331.0,171.0" target="_LLXR0GsSEe2abtVig-wLkA" source="_LLRLM2sSEe2abtVig-wLkA">
+    <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKH7sGsSEe2abtVig-wLkA"/>
+    <stereotypes xmi:id="_LLQkI2sSEe2abtVig-wLkA" name="Reference">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKIiwGsSEe2abtVig-wLkA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_LLQkIGsSEe2abtVig-wLkA" text="">
+      <visualProperties xmi:id="_LOxLIGsSEe2abtVig-wLkA" position="-26.0,2.000000000000014"/>
+    </nameVisual>
+    <sourceRole xmi:id="_LLQkIWsSEe2abtVig-wLkA" aggregationKind="NONE" name="">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKH7sWsSEe2abtVig-wLkA"/>
+      <visualProperties xmi:id="_LOwkEWsSEe2abtVig-wLkA" position="-28.0,2.0"/>
+      <visibility xmi:id="_LLQkJWsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLQkJGsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_LLQkImsSEe2abtVig-wLkA" aggregationKind="NONE" name="pedido" navigable="true">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKCcIGsSEe2abtVig-wLkA"/>
+      <visualProperties xmi:id="_LOxLIWsSEe2abtVig-wLkA" position="11.0,-46.99999999999997"/>
+      <visibility xmi:id="_LLRLMWsSEe2abtVig-wLkA" label="~"/>
+      <cardinality xmi:id="_LLRLMGsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LLXR0GsSEe2abtVig-wLkA" name="Pedido" associationsIn="_LLP9EGsSEe2abtVig-wLkA _LLJPYGsSEe2abtVig-wLkA">
+    <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4WsSEe2abtVig-wLkA"/>
+    <visualProperties xmi:id="_LLXR0WsSEe2abtVig-wLkA" position="588.0,-290.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LLXR0msSEe2abtVig-wLkA" label="+"/>
+    <attributes xmi:id="_LLXR02sSEe2abtVig-wLkA" name="cliente">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKDqQGsSEe2abtVig-wLkA"/>
+      <stereotypes xmi:id="_LLXR1GsSEe2abtVig-wLkA" name="LegacyStyledElement">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKDqQWsSEe2abtVig-wLkA"/>
+      </stereotypes>
+      <visibility xmi:id="_LLXR1WsSEe2abtVig-wLkA" label="~"/>
+      <cardinality xmi:id="_LLXR1msSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <type xmi:id="_LLXR12sSEe2abtVig-wLkA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LLXR2GsSEe2abtVig-wLkA" name="unidades">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKDqQmsSEe2abtVig-wLkA"/>
+      <stereotypes xmi:id="_LLXR2WsSEe2abtVig-wLkA" name="LegacyStyledElement">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKDqQ2sSEe2abtVig-wLkA"/>
+      </stereotypes>
+      <visibility xmi:id="_LLXR2msSEe2abtVig-wLkA" label="~"/>
+      <cardinality xmi:id="_LLXR22sSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <type xmi:id="_LLXR3GsSEe2abtVig-wLkA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_LLXR3WsSEe2abtVig-wLkA" defaultValue="Estado.CREADO" name="estado">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKERUGsSEe2abtVig-wLkA"/>
+      <stereotypes xmi:id="_LLXR3msSEe2abtVig-wLkA" name="LegacyStyledElement">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKERUmsSEe2abtVig-wLkA"/>
+      </stereotypes>
+      <visibility xmi:id="_LLXR32sSEe2abtVig-wLkA" label="~"/>
+      <cardinality xmi:id="_LLXR4GsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <type xmi:id="_LLXR4WsSEe2abtVig-wLkA" name="Estado">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJrPwGsSEe2abtVig-wLkA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LLXR4msSEe2abtVig-wLkA" name="getCliente">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJtE8GsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLXR42sSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLXR5GsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LLXR5WsSEe2abtVig-wLkA">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJtsAGsSEe2abtVig-wLkA"/>
+        <type xmi:id="_LLXR5msSEe2abtVig-wLkA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LLXR52sSEe2abtVig-wLkA" name="setCliente">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJtsAWsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLXR6GsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLXR6WsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LLXR6msSEe2abtVig-wLkA" name="cliente">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJtsAmsSEe2abtVig-wLkA"/>
+        <cardinality xmi:id="_LLXR62sSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+        <type xmi:id="_LLXR7GsSEe2abtVig-wLkA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LLXR7WsSEe2abtVig-wLkA" name="getUnidades">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJuTEGsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLXR7msSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLXR72sSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LLXR8GsSEe2abtVig-wLkA">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJuTEWsSEe2abtVig-wLkA"/>
+        <type xmi:id="_LLXR8WsSEe2abtVig-wLkA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LLXR8msSEe2abtVig-wLkA" name="setUnidades">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJuTEmsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLXR82sSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLXR9GsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LLXR9WsSEe2abtVig-wLkA" name="unidades">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJuTE2sSEe2abtVig-wLkA"/>
+        <cardinality xmi:id="_LLXR9msSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+        <type xmi:id="_LLXR92sSEe2abtVig-wLkA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LLXR-GsSEe2abtVig-wLkA" name="generarPedido">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJu6IGsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLXR-WsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLXR-msSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LLXR-2sSEe2abtVig-wLkA">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJu6I2sSEe2abtVig-wLkA"/>
+        <type xmi:id="_LLXR_GsSEe2abtVig-wLkA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_LLXR_WsSEe2abtVig-wLkA" name="cliente">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJu6IWsSEe2abtVig-wLkA"/>
+        <cardinality xmi:id="_LLXR_msSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+        <type xmi:id="_LLXR_2sSEe2abtVig-wLkA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LLXSAGsSEe2abtVig-wLkA" name="unidades">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJu6ImsSEe2abtVig-wLkA"/>
+        <cardinality xmi:id="_LLXSAWsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+        <type xmi:id="_LLXSAmsSEe2abtVig-wLkA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LLXSA2sSEe2abtVig-wLkA" name="setEstado">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKAm8GsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLXSBGsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLXSBWsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LLXSBmsSEe2abtVig-wLkA" name="entregado">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKAm8WsSEe2abtVig-wLkA"/>
+        <cardinality xmi:id="_LLXSB2sSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+        <type xmi:id="_LLXSCGsSEe2abtVig-wLkA" name="Estado">
+          <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJrPwGsSEe2abtVig-wLkA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_LLNg0GsSEe2abtVig-wLkA" name="Estado">
+    <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJrPwGsSEe2abtVig-wLkA"/>
+    <visualProperties xmi:id="_LLNg0WsSEe2abtVig-wLkA" position="439.0,-294.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LLNg0msSEe2abtVig-wLkA" label="+"/>
+    <literals xmi:id="_LLNg02sSEe2abtVig-wLkA" name="CREADO">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJr20GsSEe2abtVig-wLkA"/>
+    </literals>
+    <literals xmi:id="_LLNg1GsSEe2abtVig-wLkA" name="DESPACHADO">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJr20WsSEe2abtVig-wLkA"/>
+    </literals>
+    <literals xmi:id="_LLNg1WsSEe2abtVig-wLkA" name="ENTREGADO">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4GsSEe2abtVig-wLkA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LLRLM2sSEe2abtVig-wLkA" name="Despacho" associationsOut="_LLP9EGsSEe2abtVig-wLkA">
+    <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJmXQGsSEe2abtVig-wLkA"/>
+    <visualProperties xmi:id="_LLRLNGsSEe2abtVig-wLkA" position="1003.0,-165.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LLRLNWsSEe2abtVig-wLkA" label="+"/>
+    <attributes xmi:id="_LLRLNmsSEe2abtVig-wLkA" name="pedido">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKCcIGsSEe2abtVig-wLkA"/>
+      <stereotypes xmi:id="_LLRLN2sSEe2abtVig-wLkA" name="LegacyStyledElement">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKDDMGsSEe2abtVig-wLkA"/>
+      </stereotypes>
+      <visibility xmi:id="_LLRLOGsSEe2abtVig-wLkA" label="~"/>
+      <cardinality xmi:id="_LLRLOWsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <type xmi:id="_LLRLOmsSEe2abtVig-wLkA" name="Pedido">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4WsSEe2abtVig-wLkA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LLRLO2sSEe2abtVig-wLkA" name="getPedido">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJnlYGsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLRLPGsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLRLPWsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LLRLPmsSEe2abtVig-wLkA">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ8VgGsSEe2abtVig-wLkA"/>
+        <type xmi:id="_LLRLP2sSEe2abtVig-wLkA" name="Pedido">
+          <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4WsSEe2abtVig-wLkA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LLRLQGsSEe2abtVig-wLkA" name="setPedido">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ88kGsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLRLQWsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLRLQmsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LLRLQ2sSEe2abtVig-wLkA" name="pedido">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ88kWsSEe2abtVig-wLkA"/>
+        <cardinality xmi:id="_LLRLRGsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+        <type xmi:id="_LLRLRWsSEe2abtVig-wLkA" name="Pedido">
+          <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4WsSEe2abtVig-wLkA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LLRLRmsSEe2abtVig-wLkA" name="registrarDespachaje">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ-xwGsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLRLR2sSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLRLSGsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LLRLSWsSEe2abtVig-wLkA">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ_Y0GsSEe2abtVig-wLkA"/>
+        <type xmi:id="_LLRLSmsSEe2abtVig-wLkA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_LLRLS2sSEe2abtVig-wLkA" name="unPedido">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ-xwWsSEe2abtVig-wLkA"/>
+        <cardinality xmi:id="_LLRLTGsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+        <type xmi:id="_LLRLTWsSEe2abtVig-wLkA" name="Pedido">
+          <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4WsSEe2abtVig-wLkA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LLJ2cGsSEe2abtVig-wLkA" name="Entrega" associationsOut="_LLJPYGsSEe2abtVig-wLkA">
+    <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJozgGsSEe2abtVig-wLkA"/>
+    <visualProperties xmi:id="_LLJ2cWsSEe2abtVig-wLkA" position="230.0,-167.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LLJ2cmsSEe2abtVig-wLkA" label="+"/>
+    <attributes xmi:id="_LLJ2c2sSEe2abtVig-wLkA" name="pedido">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKDDMWsSEe2abtVig-wLkA"/>
+      <stereotypes xmi:id="_LLJ2dGsSEe2abtVig-wLkA" name="LegacyStyledElement">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LKDDMmsSEe2abtVig-wLkA"/>
+      </stereotypes>
+      <visibility xmi:id="_LLJ2dWsSEe2abtVig-wLkA" label="~"/>
+      <cardinality xmi:id="_LLJ2dmsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <type xmi:id="_LLJ2d2sSEe2abtVig-wLkA" name="Pedido">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4WsSEe2abtVig-wLkA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LLJ2eGsSEe2abtVig-wLkA" name="getPedido">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJqBoGsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLJ2eWsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLJ2emsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LLJ2e2sSEe2abtVig-wLkA">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ_Y0WsSEe2abtVig-wLkA"/>
+        <type xmi:id="_LLJ2fGsSEe2abtVig-wLkA" name="Pedido">
+          <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4WsSEe2abtVig-wLkA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LLJ2fWsSEe2abtVig-wLkA" name="setPedido">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ_Y0msSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLJ2fmsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLJ2f2sSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LLJ2gGsSEe2abtVig-wLkA" name="pedido">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ_Y02sSEe2abtVig-wLkA"/>
+        <cardinality xmi:id="_LLJ2gWsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+        <type xmi:id="_LLJ2gmsSEe2abtVig-wLkA" name="Pedido">
+          <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4WsSEe2abtVig-wLkA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LLJ2g2sSEe2abtVig-wLkA" name="realizarEntrega">
+      <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ__4GsSEe2abtVig-wLkA"/>
+      <visibility xmi:id="_LLJ2hGsSEe2abtVig-wLkA" label="+"/>
+      <cardinality xmi:id="_LLJ2hWsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LLJ2hmsSEe2abtVig-wLkA">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ__4msSEe2abtVig-wLkA"/>
+        <type xmi:id="_LLJ2h2sSEe2abtVig-wLkA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_LLJ2iGsSEe2abtVig-wLkA" name="unPedido">
+        <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJ__4WsSEe2abtVig-wLkA"/>
+        <cardinality xmi:id="_LLJ2iWsSEe2abtVig-wLkA" label="1" max="1" min="1"/>
+        <type xmi:id="_LLJ2imsSEe2abtVig-wLkA" name="Pedido">
+          <modelElement href="TDDWarehouse-lgoicoecheaf.uml#_LJsd4WsSEe2abtVig-wLkA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
