@@ -1,8 +1,8 @@
-package models;
+package es.indra.CursoJava.Models;
 
 import java.time.LocalDate;
 
-import interfaces.EsAlimento;
+import es.indra.CursoJava.Interfaces.EsAlimento;
 import lombok.Data;
 
 @Data

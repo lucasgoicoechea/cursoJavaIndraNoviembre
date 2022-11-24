@@ -1,4 +1,4 @@
-package interfaces;
+package es.indra.CursoJava.Interfaces;
 
 
 public interface ConDescuento {

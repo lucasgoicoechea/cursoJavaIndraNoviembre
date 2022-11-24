@@ -1,6 +1,6 @@
-package models;
+package es.indra.CursoJava.Models;
 
-import interfaces.EsAlimento;
+import es.indra.CursoJava.Interfaces.EsAlimento;
 import lombok.Data;
 
 @Data

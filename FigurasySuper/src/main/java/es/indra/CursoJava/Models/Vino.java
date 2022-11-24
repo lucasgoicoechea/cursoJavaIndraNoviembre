@@ -1,11 +1,11 @@
-package models;
+package es.indra.CursoJava.Models;
 
 
 
 import java.time.LocalDate;
 
-import interfaces.ConDescuento;
-import interfaces.EsLiquido;
+import es.indra.CursoJava.Interfaces.ConDescuento;
+import es.indra.CursoJava.Interfaces.EsLiquido;
 import lombok.Data;
 
 @Data

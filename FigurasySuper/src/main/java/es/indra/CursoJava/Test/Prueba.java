@@ -1,11 +1,13 @@
+package es.indra.CursoJava.Test;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import models.Cereales;
-import models.Detergente;
-import models.Producto;
-import models.Vino;
+import es.indra.CursoJava.Models.Cereales;
+import es.indra.CursoJava.Models.Detergente;
+import es.indra.CursoJava.Models.Producto;
+import es.indra.CursoJava.Models.Vino;
+
 
 public class Prueba {
 

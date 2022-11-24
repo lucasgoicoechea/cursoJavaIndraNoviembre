@@ -1,4 +1,4 @@
-package interfaces;
+package es.indra.CursoJava.Interfaces;
 
 import java.time.LocalDate;
 

@@ -1,8 +1,8 @@
-package models;
+package es.indra.CursoJava.Models;
 
 import java.time.LocalDate;
 
-import interfaces.ConDescuento;
+import es.indra.CursoJava.Interfaces.ConDescuento;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
