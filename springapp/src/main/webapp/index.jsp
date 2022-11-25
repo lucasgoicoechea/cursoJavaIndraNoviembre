@@ -1,0 +1,7 @@
+<html>
+<body>
+<title>Aplicación Básica</title>
+<h2>Este es el inicio</h2>
+
+</body>
+</html>
