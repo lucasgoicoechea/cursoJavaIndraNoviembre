@@ -2,16 +2,16 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="es.indra.curso.entities.Carrera"/>
     <fullyQualifiedTypeName name="es.indra.curso.entities.Pista"/>
     <fullyQualifiedTypeName name="es.indra.curso.entities.Corredor"/>
     <fullyQualifiedTypeName name="org.junit.Before"/>
     <fullyQualifiedTypeName name="es.indra.tddwarehouse.model.Pedido"/>
     <fullyQualifiedTypeName name="org.junit.Assert"/>
-    <fullyQualifiedTypeName name="es.indra.tddwarehouse.model.Pedido.Estado"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="es.indra.tddwarehouse.model.Pedido.Estado"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

@@ -45,12 +45,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="ProyectoSuperheroes"/>
+			<item value="indra"/>
 			<item value="es.indra.proyectoUsuario"/>
 		</list>
 		<list key="name">
+			<item value="ProyectoSuperheroes"/>
 			<item value="ProyectoUsuario-PabloLozanoRopa"/>
 		</list>
 		<list key="artifactId">
+			<item value="ProyectoSuperheroes"/>
+			<item value="indra"/>
 			<item value="proyectoUsuario"/>
 		</list>
 		<list key="projectNameTemplate">
