@@ -1,0 +1,17 @@
+A MEDIDA QUE INGRESAN VAYAN FORMANDO
+ GRUPO DE TRABAJO DE A 2 PERSONAS
+PARA UN EJERCICIO
+--------------------------------
+CREARLOS CADA UNO COMO UN PROYECTO MAVEN,
+GENERAR LAS CLASES DE TEST PARA LOS METODOS
+CON LOGICA DE NEGOCIO (O FUNCIONALES)
+---
+CADA UNO DE LOS INTEGRANTES DEL EQUIPO 
+TOMA 1 EJERCICIO , LO REALIZA Y LO SUBE A 
+GITHUB, AL REPO, 
+LUEGO DEBERIAN PODER JUNTAR EL CODIGO FUENTE
+DE AMBOS EJERCICIOS EN 1 SOLO EJERCICIO.
+  -- nos tomaremos 1 hora y vemos si mas ---
+https://github.com/lucasgoicoechea/cursoJavaIndraNoviembre/blob/master/EJERCICICIOS/Ejercicio-Java-01-Figuras.pdf
+https://github.com/lucasgoicoechea/cursoJavaIndraNoviembre/blob/master/EJERCICICIOS/Ejercicio-Java-03-Supermercado.pdf
+
