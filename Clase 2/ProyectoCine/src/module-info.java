@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author emfernandezp
- *
- */
-module ProyectoCine {
-}
