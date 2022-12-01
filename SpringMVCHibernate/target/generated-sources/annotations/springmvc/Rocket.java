@@ -1,4 +1,4 @@
-package com.springmvc.model;
+package springmvc;
 
 import java.util.Date;
 
