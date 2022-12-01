@@ -1,6 +1,9 @@
 package springmvc.dao;
+import java.util.List;
+
 import springmvc.*;
-public class RocketDAO {
+
+public interface RocketDAO {
 
 	public void addRocket(Rocket r);
 
