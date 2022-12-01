@@ -1,7 +1,9 @@
 package springmvc;
 
 import java.util.ArrayList;
+import lombok.Data;
 
+@Data
 public class Houston {
 
 	private int id;
