@@ -10,5 +10,14 @@ public class Rocket {
 	private int id;
 	private int id_base;
 	private Estado Estado_mision;
+	
+	public void Cambiar_fecha(Date fecha) {
+		this.Fecha_lanzamiento = fecha;
+	}
+	
+	public void Cambiar_estado(Estado new_estado) {
+		this.Estado_mision = new_estado;
+		
+	}
 
 }

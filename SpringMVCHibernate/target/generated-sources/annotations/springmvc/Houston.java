@@ -14,7 +14,7 @@ public class Houston {
 
 	public void cohe_lanz(ArrayList<Rocket> lanz,int id) {
 		for (Rocket rocket : lanz) {
-			if(rocket.getId()==id)rocket.cambiar_estado(Estado.LANZADO);
+			if(rocket.getId()==id)rocket.Cambiar_estado(Estado.LANZADO);
 		}
 	}
 
@@ -33,7 +33,7 @@ public class Houston {
 	public int N_esperando(ArrayList<Rocket> lanzamientos) {
 		int numCola = 0;
 		for (Rocket rocket : lanzamientos) {
-			if(rocket.getEstado()==Estado.ESPERANDO)numCola++;
+			if(rocket.getEstado_mision()==Estado.ESPERANDO)numCola++;
 		}
 		return numCola;
 
