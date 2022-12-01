@@ -1,0 +1,49 @@
+package service;
+
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Service;
+
+import model.Señal;
+
+@Service
+public class CarreteraServiceImpl implements CarreteraService{
+
+	@Override
+	@Transactional
+	public void insertarSeñal(Señal senal) {
+
+		
+
+	}
+
+	@Override
+	@Transactional
+	public void consultarId(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	@Transactional
+	public void borrarSeñal(Señal señal) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	@Transactional
+	public void actualizarSeñal(Señal señal) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	@Transactional
+	public void getSeñales() {
+		// TODO Auto-generated method stub
+
+	}
+
+
+}
