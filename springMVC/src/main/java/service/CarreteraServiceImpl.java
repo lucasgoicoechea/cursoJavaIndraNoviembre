@@ -40,8 +40,8 @@ public class CarreteraServiceImpl implements CarreteraService{
 
 	@Override
 	@Transactional
-	public void borrarSeñal(Señal señal) {
-		// TODO Auto-generated method stub
+	public void borrarSeñal(int id) {
+		this.carreteraDAO.removeSeñal(id);
 
 	}
 

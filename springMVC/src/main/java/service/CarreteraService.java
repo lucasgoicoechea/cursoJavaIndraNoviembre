@@ -10,7 +10,7 @@ public interface  CarreteraService {
 	
 	public Señal consultarId(int id);
 	
-	public void borrarSeñal(Señal señal);
+	public void borrarSeñal(int id);
 	
 	public void actualizarSeñal(Señal señal);
 	
