@@ -3,13 +3,14 @@ package dao;
 import java.util.ArrayList;
 
 import model.Carretera;
+import model.Señal;
 
 public interface CarreteraDao {
 
-	public void addPerson(Carretera c);
-	public void updatePerson(Carretera c);
-	public ArrayList<Carretera> listCarretera();
-	public void removeCarretera(int id);
-	public  Carretera getCarreteraById(int id);
+	public void addSeñal(Señal c);
+	public void updateSeñal(Señal c);
+	public ArrayList<Señal> listSeñales();
+	public void removeSeñal(int id);
+	public  Señal getSeñalById(int id);
 
 }
