@@ -14,3 +14,4 @@ public interface CarreteraDao {
 	public  Señal getSeñalById(int id);
 
 }
+
