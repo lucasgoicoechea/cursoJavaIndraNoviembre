@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
 import model.Carretera;
+import model.Señal;
 
 @Repository
 public class CarreteraDaoImpl implements CarreteraDao{
@@ -24,53 +25,53 @@ public class CarreteraDaoImpl implements CarreteraDao{
 	}
 
 	@Override
-	public void addPerson(Carretera c) {
+	public void addSeñal(Señal c) {
 		Session session = this.sessionFactory.getCurrentSession();
 		session.persist(c);
-		logger.info("Road saved successfully, Road Details="+c);
+		logger.info("Señal saved successfully, Señal Details="+c);
 
 
 	}
 
 	@Override
-	public void updatePerson(Carretera c) {
+	public void updateSeñal(Señal c) {
 		Session session = this.sessionFactory.getCurrentSession();
 		session.update(c);
-		logger.info("Person updated successfully, Person Details="+c);
+		logger.info("Señal updated successfully, Señal Details="+c);
 
 	}
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public ArrayList<Carretera> listCarretera() {
+	public ArrayList<Señal> listSeñales() {
 		Session session = this.sessionFactory.getCurrentSession();
-		List<Carretera> CarreteraList = session.createQuery("from Person").list();
-		for(Carretera p : CarreteraList){
-			logger.info("Person List::"+p);
+		List<Señal> señalesList = session.createQuery("from Señal").list();
+		for(Señal p : señalesList){
+			logger.info("Señal List::"+p);
 		}
-		return (ArrayList<Carretera>) CarreteraList;
+		return (ArrayList<Señal>) señalesList;
 
 	}
 
 
 	@Override
-	public void removeCarretera(int id) {
+	public void removeSeñal(int id) {
 		Session session = this.sessionFactory.getCurrentSession();
-		Carretera p = (Carretera) session.load(Carretera.class, id);
+		Señal p = (Señal) session.load(Señal.class, id);
 		if(null != p){
 			session.delete(p);
 		}
-		logger.info("Carretera deleted successfully, Carretera details="+p);
+		logger.info("Señal deleted successfully, Señal details="+p);
 	}
 
 
 
 
 	@Override
-	public Carretera getCarreteraById(int id) {
+	public Señal getSeñalById(int id) {
 		Session session = this.sessionFactory.getCurrentSession();		
-		Carretera p = (Carretera) session.load(Carretera.class, id);
-		logger.info("Carretera loaded successfully, Carretera details="+p);
+		Señal p = (Señal) session.load(Señal.class, id);
+		logger.info("Señal loaded successfully, Señal details="+p);
 		return p;
 	}
 
@@ -81,3 +82,4 @@ public class CarreteraDaoImpl implements CarreteraDao{
 	
 
 }
+
