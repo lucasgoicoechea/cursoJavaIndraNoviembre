@@ -46,5 +46,4 @@ public class CaballoServiceImpl implements CaballoService {
 	public void removeCaballo(int id) {
 		this.caballoDAO.removeCaballo(id);
 	}
-
 }
