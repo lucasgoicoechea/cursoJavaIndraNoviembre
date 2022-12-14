@@ -1741,3 +1741,76 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2022-12-13 16:16:57,546 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-12-13 16:16:57,546 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-12-13 16:16:57,546 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\personaCorreccionVersion\src\test\resources
+2022-12-14 11:57:13,343 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-14 12:09:25,588 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:personaCorreccionVersion:0.0.1-SNAPSHOT @ C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\personaCorreccionVersion\pom.xml.
+2022-12-14 12:09:28,992 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-14 12:09:28,992 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-12-14 12:09:28,994 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-14 12:09:29,013 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-14 12:09:29,019 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-14 12:09:29,019 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-12-14 12:09:29,019 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\personaCorreccionVersion\src\test\resources
+2022-12-14 12:09:30,569 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:personas:0.0.1-SNAPSHOT @ C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\personas\pom.xml.
+2022-12-14 12:09:32,598 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:09:32,610 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:09:32,613 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\personas\src\test\resources
+2022-12-14 12:11:12,472 [Worker-18: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:aspectos:0.0.1-SNAPSHOT @ C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\pom.xml.
+2022-12-14 12:11:13,242 [Worker-18: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AespectosEjemplo/src/main/java
+2022-12-14 12:11:13,242 [Worker-18: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AespectosEjemplo/src/main/resources
+2022-12-14 12:11:13,250 [Worker-18: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AespectosEjemplo/src/main/resources
+2022-12-14 12:11:13,256 [Worker-18: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AespectosEjemplo/src/test/java
+2022-12-14 12:11:14,421 [Worker-18: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2022-12-14 12:11:14,424 [Worker-18: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-12-14 12:11:14,774 [Worker-18: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:aspectos:0.0.1-SNAPSHOT @ C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\pom.xml.
+2022-12-14 12:11:15,630 [Worker-18: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AespectosEjemplo/src/main/java
+2022-12-14 12:11:15,631 [Worker-18: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AespectosEjemplo/src/main/resources
+2022-12-14 12:11:15,631 [Worker-18: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AespectosEjemplo/src/main/resources
+2022-12-14 12:11:15,631 [Worker-18: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AespectosEjemplo/src/test/java
+2022-12-14 12:11:16,067 [Worker-18: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for AespectosEjemplo
+2022-12-14 12:11:16,074 [Worker-18: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-12-14 12:11:16,521 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:11:16,526 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:11:16,530 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:11:16,530 [Worker-15: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AespectosEjemplo
+2022-12-14 12:11:16,531 [Worker-15: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AespectosEjemplo
+2022-12-14 12:12:48,287 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:12:48,298 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:12:48,303 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:13:32,803 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:13:32,817 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:13:32,823 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:13:49,896 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:13:49,906 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:13:49,908 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:13:52,140 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:13:52,150 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:13:52,153 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:14:50,056 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:14:50,065 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:14:50,067 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:15:07,007 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:15:07,016 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:15:07,018 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:15:29,032 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:15:29,039 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:15:29,041 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:16:20,904 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:aspectos:0.0.1-SNAPSHOT @ C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\pom.xml.
+2022-12-14 12:16:22,269 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:16:22,269 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:16:22,271 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:16:22,272 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of AespectosEjemplo
+2022-12-14 12:16:22,272 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for AespectosEjemplo
+2022-12-14 12:16:22,718 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:16:22,724 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:16:22,728 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:17:07,957 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:17:07,967 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:17:07,971 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:17:15,001 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:17:15,008 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:17:15,010 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:18:11,038 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:18:11,048 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2022-12-14 12:18:11,063 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\mtaboas\eclipse-workspace\gitHubCursoJavaIndraNoviembre\cursoJavaIndraNoviembre\AespectosEjemplo\src\test\resources
+2022-12-14 12:22:43,604 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2022-12-14 12:22:43,610 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
