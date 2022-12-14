@@ -1,0 +1,11 @@
+package Interfaces;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import model.Persona;
+
+@Repository
+public interface PersonaRepositorio extends CrudRepository<Persona, Integer> {
+	
+}
+
