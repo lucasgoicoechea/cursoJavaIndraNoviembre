@@ -1,0 +1,11 @@
+CREATE DATABASE `oficios`; 
+CREATE TABLE `oficios` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `urgencia` int DEFAULT NULL,
+  `precio_hora` double DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+INSERT INTO `` (`id`,`name`,`urgencia`,`precio_hora`) VALUES (1,'pepe',0,2);
+INSERT INTO `` (`id`,`name`,`urgencia`,`precio_hora`) VALUES (2,'paco',1,4);
+INSERT INTO `` (`id`,`name`,`urgencia`,`precio_hora`) VALUES (3,'alex',0,3);
