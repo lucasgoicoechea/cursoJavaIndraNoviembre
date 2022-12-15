@@ -18,13 +18,14 @@ public class OficioController {
 	@Autowired
 	private OficioService oficioService;
 
+	//Metodo get para obtener todos los oficios
 	@RequestMapping(value = "/oficios", method =  RequestMethod.GET)
 	@ResponseBody
 	public Iterable<Oficio> getOficios() {
 		return oficioService.findAll();
 	}
 	
-	 
+	//Metodo get para obtener un oficio a con un nombre 
     @RequestMapping(value = "/buscarOficios", method =  RequestMethod.GET)
     public Oficio buscarOficio(@RequestParam(name = "nombre") String nombre) {
     	Iterable<Oficio>oficios =this.oficioService.findAll();
