@@ -1,0 +1,275 @@
+2022-11-30 12:35:51,899 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-30 12:43:35,801 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-30 12:44:13,013 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-30 12:44:34,291 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:44:34,294 [Worker-5: Update Maven projects configuration] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:44:55,472 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:44:55,473 [Worker-5: Update Maven projects configuration] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:45:16,541 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:45:16,541 [Worker-5: Update Maven projects configuration] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:45:16,672 [Worker-5: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 63 sec
+2022-11-30 12:45:38,363 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:45:38,364 [Worker-11: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:45:59,503 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:45:59,503 [Worker-11: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:46:20,597 [Worker-11: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:46:20,598 [Worker-11: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:47:28,849 [Worker-11: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:47:28,850 [Worker-11: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:47:49,803 [Worker-11: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:47:49,804 [Worker-11: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:48:11,223 [Worker-11: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:48:11,223 [Worker-11: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:48:11,239 [Worker-11: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:495)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:872)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1007)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:868)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:220)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-11-30 12:55:02,812 [Worker-15: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-30 12:55:24,026 [Worker-15: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:55:24,027 [Worker-15: Update Maven projects configuration] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:55:45,101 [Worker-15: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:55:45,101 [Worker-15: Update Maven projects configuration] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:56:06,391 [Worker-15: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:56:06,392 [Worker-15: Update Maven projects configuration] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:56:06,422 [Worker-15: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 63 sec
+2022-11-30 12:56:27,811 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:56:27,811 [Worker-24: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:56:42,982 [Worker-27: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:56:42,983 [Worker-27: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:56:49,185 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:56:49,185 [Worker-24: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:57:04,048 [Worker-27: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:57:04,048 [Worker-27: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:57:10,261 [Worker-24: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:57:10,262 [Worker-24: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:57:25,233 [Worker-27: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:57:25,234 [Worker-27: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 12:57:25,244 [Worker-27: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:495)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:872)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1007)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:868)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:220)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-11-30 12:59:45,233 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 12:59:45,233 [Worker-29: Import Getting Started Content] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:00:06,226 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:00:06,227 [Worker-29: Import Getting Started Content] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:00:27,271 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:00:27,272 [Worker-29: Import Getting Started Content] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:00:27,302 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 63 sec
+2022-11-30 13:00:27,304 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-30 13:00:48,354 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:00:48,354 [Worker-29: Import Getting Started Content] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:01:09,544 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:01:09,544 [Worker-29: Import Getting Started Content] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:01:30,421 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:01:30,422 [Worker-29: Import Getting Started Content] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:01:30,460 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 63 sec
+2022-11-30 13:02:00,173 [Worker-25: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:02:00,173 [Worker-25: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:02:21,196 [Worker-25: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:02:21,196 [Worker-25: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:02:42,191 [Worker-25: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:02:42,192 [Worker-25: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:12:52,686 [Worker-40: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:12:52,687 [Worker-40: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:12:52,697 [Worker-40: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:12:52,697 [Worker-40: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:12:52,705 [Worker-40: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:12:52,705 [Worker-40: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:13:14,008 [Worker-18: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:13:14,010 [Worker-18: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:13:14,024 [Worker-18: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:13:14,035 [Worker-18: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:13:23,154 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-30 13:13:47,054 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:13:47,055 [Worker-4: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:13:47,059 [Worker-7: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:13:47,061 [Worker-7: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:14:07,992 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:14:07,993 [Worker-4: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:14:08,191 [Worker-7: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:14:08,192 [Worker-7: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:14:28,951 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:14:28,952 [Worker-4: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:14:29,258 [Worker-7: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:14:29,259 [Worker-7: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:14:29,270 [Worker-7: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:495)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:872)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1007)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:868)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:220)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-11-30 13:14:49,981 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:14:49,982 [Worker-4: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:14:56,971 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:14:56,971 [Worker-2: Importing Maven projects] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:15:11,115 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:15:11,116 [Worker-4: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:15:18,059 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:15:18,060 [Worker-2: Importing Maven projects] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:15:32,078 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:15:32,079 [Worker-4: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:15:39,067 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:15:39,068 [Worker-2: Importing Maven projects] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:15:39,135 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 63 sec
+2022-11-30 13:16:00,270 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:16:00,271 [Worker-4: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:16:00,334 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:16:00,334 [Worker-2: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:16:21,665 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:16:21,665 [Worker-2: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:16:21,863 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:16:21,864 [Worker-4: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:16:42,767 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:16:42,767 [Worker-2: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:16:43,075 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:16:43,076 [Worker-4: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:17:03,914 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:17:03,915 [Worker-2: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:17:16,735 [Worker-6: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:17:16,736 [Worker-6: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:17:25,251 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:17:25,252 [Worker-2: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:17:37,679 [Worker-6: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:17:37,680 [Worker-6: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:17:46,267 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:17:46,268 [Worker-2: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:17:58,931 [Worker-6: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:17:58,932 [Worker-6: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:17:58,944 [Worker-6: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:495)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:872)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1007)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:868)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:220)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-11-30 13:18:08,657 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:18:08,659 [Worker-8: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:18:29,925 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:18:29,927 [Worker-8: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:18:51,255 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:18:51,256 [Worker-8: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:19:12,228 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:19:12,228 [Worker-8: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:19:33,469 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:19:33,469 [Worker-8: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:19:54,792 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:19:54,792 [Worker-8: Updating Maven Dependencies] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:46:10,689 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:46:10,693 [Worker-14: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:46:11,629 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:46:11,631 [Worker-0: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:46:31,811 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:46:31,812 [Worker-14: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:46:32,601 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/repository/CDOSI_Release/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:46:32,601 [Worker-0: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:46:52,744 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:46:52,746 [Worker-14: reload maven project] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:46:52,754 [Worker-14: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.springmvc:SpringMVCCrud:1: Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:3.0.0 from/to NX_DD_C2_Release (https://slmaven.indra.es/nexus/repository/NX_DD_C2_Release/): Failed to connect to slmaven.indra.es/94.126.241.138:443 and 'parent.relativePath' points at no local POM @ line 5, column 10
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:495)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$16(ProjectRegistryManager.java:872)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1007)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:868)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:220)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-11-30 13:46:53,600 [Worker-0: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://slmaven.indra.es/nexus/content/groups/public/org/springframework/boot/spring-boot-starter-parent/3.0.0/spring-boot-starter-parent-3.0.0.pom
+2022-11-30 13:46:53,602 [Worker-0: Building] WARN  o.e.a.i.impl.TrackingFileManager - Failed to create parent directories for tracking file d:\.m2\repository_bms3\org\springframework\boot\spring-boot-starter-parent\3.0.0\spring-boot-starter-parent-3.0.0.pom.lastUpdated
+2022-11-30 13:46:55,040 [Worker-20: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - File not found: C:\Users\jffuncia\Desktop\Projects\FormacionJava\cursoJavaIndraNoviembre\demo-1\pom.xml.
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\Users\jffuncia\Desktop\Projects\FormacionJava\cursoJavaIndraNoviembre\demo-1\pom.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:569)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:525)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:367)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:321)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:150)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:350)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:262)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:205)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:87)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: File not found: C:\Users\jffuncia\Desktop\Projects\FormacionJava\cursoJavaIndraNoviembre\demo-1\pom.xml.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	... 27 common frames omitted
