@@ -11,6 +11,8 @@ import javax.persistence.Table;
 @Table(name = "oficios")
 public class Oficio {
 
+	//Clase con los atributos de un oficio
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
