@@ -1,0 +1,6 @@
+CREATE TABLE marcacoche
+(
+id int  primary key not null,
+nombre varchar (25),
+importada bool
+);
